@@ -81,7 +81,7 @@ public class Cover : MonoBehaviour
 
             if (birdFound != null)
             {
-                captureSuccess(birdsContained[0].GetComponent<Bird>());
+                captureSuccess(birdFound);
             }
         }
         
